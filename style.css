@@ -1,0 +1,333 @@
+/*Style.css*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:ital,wght@0,400;0,500;0,900;1,300;1,400;1,700&display=swap');
+
+:root
+{
+    --clr1:rgb(6, 6, 100);
+    --clr2:#fff;
+    --clr3:#000;
+}
+*
+{
+    font-family: 'Roboto Mono',sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+html 
+{
+    font-size: 65%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar
+{
+    width: 1rem;
+}
+html::-webkit-scrollbar-thumb
+{
+    background: var(--clr1);
+}
+
+/*--------------------------HEADER---------------------*/
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: stretch;
+    background: var(--clr2);
+    align-items:  center;
+    justify-content: space-between;
+    background: rgb(253, 247, 247);
+}
+.head img
+{
+    width: 6%;
+    padding-left: 2rem;
+}
+.head .navbar a
+{
+    padding-right: 5rem;
+    font-size: 1.8rem;
+    text-transform: none;
+    color: var(--clr3);
+    letter-spacing: .4rem;
+}
+.background
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background img
+{
+    width: 100%;
+    height: auto;
+}
+.background h2 
+{
+    align-items: center;
+    color: var(--clr3);
+    margin-top: -37rem;
+    font-size: 2.7rem;
+    letter-spacing: .4rem;
+}
+.background span
+{
+    color: var(--clr1);
+}
+
+/*-------------------PROJECTS---------------*/
+
+.projects h2
+{
+    color: var(--clr3);
+    clip-path: polygon(0 19%, 30% 36%, 0 0, 100% 0, 71% 35%, 100% 18%, 100% 85%, 73% 67%, 100% 100%, 0 100%, 27% 69%, 0 84%);
+    background: var(--clr3);
+    color: #fff;
+    margin-top: 40rem;
+    width: 26rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    text-transform: none;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+
+}
+.box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-img img
+{
+    width: 29rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.text
+{
+    background: #000;
+    color: #fff;
+    position: absolute;
+    padding: 1.5rem;
+    margin-left: 2.4rem;
+}
+
+/*-----------------------ABOUT------------------*/
+
+.about h2
+{
+    color: var(--clr3);
+    clip-path: polygon(0 19%, 30% 36%, 0 0, 100% 0, 71% 35%, 100% 18%, 100% 85%, 73% 67%, 100% 100%, 0 100%, 27% 69%, 0 84%);
+    background: var(--clr3);
+    color: #fff;
+    margin-top: 5rem;
+    width: 26rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    text-transform: none;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+
+}
+.about p
+{
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    text-transform: none;
+}
+.all-css
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.images img
+{
+    width: 28rem;
+    margin-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+.text-align h3
+{
+    padding-left: 3.4rem;
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+}
+.text-align .p
+{
+    color: rgb(175, 174, 174);
+    text-align: start;
+    padding-left: 3.5rem;
+    padding-bottom: 2rem;
+}
+.text-align .para
+{
+    color: #000;
+    text-align: start;
+    padding-left: 3.4rem;
+    letter-spacing: .1rem;
+}
+.text-align .btn
+{
+    text-align: center;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    margin-left: 3.6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+.text-align .btn:hover
+{
+    background: rgba(202, 195, 195, 0.61);
+    cursor: pointer;
+}
+
+/*-----------------------CONTACT---------------------*/
+
+.contact
+{
+    padding: 3rem;
+    margin-top: 7rem;
+    padding-left: 5rem;
+}
+.contact h2
+{
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    text-transform: none;
+    letter-spacing: .2rem;
+}
+.contact p
+{
+    padding-left: 4rem;
+    font-size: 1.4rem;
+    text-transform: none;
+    padding-bottom: 2rem;
+}
+.fa-map-marker
+{
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+.fa-phone
+{
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+.fa-envelope
+{
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+.contact h4
+{
+    text-transform: none;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    font-weight: 100;
+}
+.contact input
+{
+    width: 80%;
+    height: 4rem;
+    padding-left: 1.5rem;
+    text-transform: none;
+}
+form p .btn
+{
+    background: var(--clr1);
+    color: var(--clr2);
+    padding: 1rem;
+    border: none;
+}
+form p .btn:hover
+{
+    background-color: rgb(45, 45, 134);
+    cursor: pointer;
+}
+
+/*------------------------FOOTER--------------------*/
+
+footer h2
+{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2rem;
+    text-transform: none;
+    margin-top: 15rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    background: var(--clr3);
+    color: var(--clr2);
+}
+.icons
+{
+    text-align: center;
+    color: var(--clr2);
+    background: var(--clr3);
+}
+.icons i
+{
+    padding-left: 1rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.icons i:hover
+{
+    color: rgba(240, 240, 40, 0.897);
+    cursor: pointer;
+}
+footer p
+{
+    text-align: center;
+    color: var(--clr2);
+    background: var(--clr3);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    font-weight: 100;
+    padding-left: 1rem;
+}
+footer p span
+{
+    color: var(--clr2);
+    text-decoration: underline;
+}
+footer p span:hover
+{
+    color:rgb(45, 45, 134);
+    cursor: pointer;
+}
